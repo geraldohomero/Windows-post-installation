@@ -27,7 +27,6 @@ winget install Microsoft.VisualStudio.2022.Community; winget install 7zip.7zip; 
 # Create folder Github
 $desktopPath = [Environment]::GetFolderPath("Desktop")
 $folderName = "Github"
-
 $folderPath = Join-Path $desktopPath $folderName
 
 # Verification
